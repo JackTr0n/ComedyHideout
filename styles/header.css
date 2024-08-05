@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgb(51, 51, 51);
+    height: 90px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    opacity: 0.9;
+}
+.wv-logo{
+    height: 85px;
+    opacity: 1;
+    width: 150px;
+}
+
+.left-section{
+    display: flex;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    flex: 1;
+    color: red;
+    margin-right: 100px;
+    font-family: 'Bangers';
+    text-align: center;
+}
